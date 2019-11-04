@@ -1,0 +1,30 @@
+<configuration scan="true" scanPeriod="60 seconds" debug="false">
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <contextName>eureka-server</contextName>
+    <property name="BASE_HOME" value="/home/jar/eureka-server/log"/><!-- log目录 -->
+    <property name="BACKUP_HOME" value="/home/jar/eureka-server/log"/><!-- log目录 -->
+    <!-- 访问日志 -->
+    <appender name="ACCESS" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>
+                ${BACKUP_HOME}/eureka-server-access.%d{yyyyMMdd}.log
+            </FileNamePattern>
+            <MaxHistory>30</MaxHistory>
+        </rollingPolicy>
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>
+                %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+            </pattern>
+        </layout>
+    </appender>
+
+    <logger name="com.yurun" additivity="false" level="info">
+        <appender-ref ref="ACCESS"/>
+        <appender-ref ref="CONSOLE"/>
+    </logger>
+
+    <root level="info">
+        <appender-ref ref="ACCESS"/>
+        <appender-ref ref="CONSOLE"/>
+    </root>
+</configuration>

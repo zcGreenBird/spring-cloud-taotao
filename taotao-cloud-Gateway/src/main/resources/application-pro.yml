@@ -1,0 +1,13 @@
+#eureka
+eureka:
+  client: #客户端注册进eureka服务列表内
+    service-url:
+      defaultZone: http://10.11.0.216:10001/eureka
+  instance:
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    prefer-ip-address: true     #访问路径可以显示IP地址
+    leaseRenewalIntervalInSeconds: 10
+    #health-check-url-path: /actuator/health
+    #metadata-map:
+    #  user.name: ${spring.security.user.name}
+    #  user.password: ${spring.security.user.password}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="taotao-Eureka-service" />
+        <module name="taotao-cloud-Gateway" />
+        <module name="taotao-cloud-common-core" />
+        <module name="taotao-common-core" />
+        <module name="taotao-eureka-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="root" target="1.8" />
+      <module name="spring-Cloud-taotao" target="1.5" />
+      <module name="springcloud-taotao-parent" target="1.8" />
+      <module name="taotao-cloud-common" target="1.8" />
+      <module name="taotao-cloud-common-core" target="1.5" />
+      <module name="taotao-cloud-Gateway" target="1.8" />
+      <module name="taotao-cloud-service" target="1.8" />
+      <module name="taotao-common" target="1.8" />
+      <module name="taotao-common-core" target="1.5" />
+      <module name="taotao-eureka-service" target="1.8" />
+      <module name="taotao-Eureka-service" target="1.8" />
+      <module name="taotaocloudgateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="root" options="" />
+      <module name="taotao-cloud-common" options="" />
+      <module name="taotao-cloud-common-core" options="-parameters" />
+      <module name="taotao-cloud-service" options="" />
+      <module name="taotao-common" options="" />
+      <module name="taotao-eureka-service" options="-parameters" />
+    </option>
+  </component>
+</project>

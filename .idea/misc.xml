@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/taotao-cloud-common/taotao-common-core" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/spring-Cloud-taotao/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-taotao-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/root/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-cloud-common/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-cloud-service/pom.xml" />
+        <option value="$PROJECT_DIR$/taotaocloudgateway/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-cloud-Gateway/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

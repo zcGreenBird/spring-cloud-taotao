@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="taotao-common-core:war">
+    <output-path>$PROJECT_DIR$/taotao-cloud-common/taotao-common-core/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>taotao-common-core</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="taotao-common-core-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="taotao-common-core:war exploded" />
+    </root>
+  </artifact>
+</component>

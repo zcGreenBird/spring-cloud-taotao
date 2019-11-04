@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/root/root.iml" filepath="$PROJECT_DIR$/root/root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-cloud-service/taotao-Eureka-service/taotao-Eureka-service.iml" filepath="$PROJECT_DIR$/taotao-cloud-service/taotao-Eureka-service/taotao-Eureka-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-cloud-Gateway/taotao-cloud-Gateway.iml" filepath="$PROJECT_DIR$/taotao-cloud-Gateway/taotao-cloud-Gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-cloud-common/taotao-cloud-common.iml" filepath="$PROJECT_DIR$/taotao-cloud-common/taotao-cloud-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-cloud-common/taotao-cloud-common-core.iml" filepath="$PROJECT_DIR$/taotao-cloud-common/taotao-cloud-common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-cloud-service/taotao-cloud-service.iml" filepath="$PROJECT_DIR$/taotao-cloud-service/taotao-cloud-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-cloud-common/taotao-common-core/taotao-common-core.iml" filepath="$PROJECT_DIR$/taotao-cloud-common/taotao-common-core/taotao-common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-cloud-service/taotao-eureka-service.iml" filepath="$PROJECT_DIR$/taotao-cloud-service/taotao-eureka-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-cloud-service/taotao-manager-service/taotao-manager-service.iml" filepath="$PROJECT_DIR$/taotao-cloud-service/taotao-manager-service/taotao-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-spring cloud.iml" filepath="$PROJECT_DIR$/taotao-spring cloud.iml" />
+    </modules>
+  </component>
+</project>

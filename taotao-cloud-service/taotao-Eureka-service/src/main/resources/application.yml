@@ -1,0 +1,14 @@
+server:
+  port: 10001
+spring:
+  application:
+    name: eureka-server
+  profiles:
+    active: dev
+eureka:
+  server:
+    #关闭自我保护(节点较少时关闭，若很多需打开)
+    #enable-self-preservation: false
+    #扫描失效服务的间隔时间（缺省为60*1000ms）
+    eviction-interval-timer-in-ms: 20000
+
